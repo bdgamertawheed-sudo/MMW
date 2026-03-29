@@ -2,10 +2,22 @@
 MENU:Category_Profile Settings;
 5_ButtonOnOff_Remove Ads;
 17_ButtonOnOff_Black Background;
+
 Category_Unlock & Purchases;
 7_ButtonOnOff_Unlock All Skins;
 13_ButtonOnOff_Unlock All Backgrounds;
 15_ButtonOnOff_Unlock All Foods;
+
+Category_Profile Stats & UserID;
+26_InputValue_Set Stat Value;
+27_Spinner_Select Stat_Best Score,Entering top-3,Victories,Defeats,Games Played,Total Play Time;
+28_ButtonOnOff_Unlimited UserID;
+
+Category_Currency & Inventory;
+1_InputValue_Set Amount;
+2_Spinner_Select Currency_Coins,Gems,Pickaxes,Items;
+3_ButtonOnOff_Unlimited Currency;
+
 Category_Player Snake;
 4_ButtonOnOff_God Mode;
 9_SeekBar_Player Speed_0_20;
@@ -16,6 +28,7 @@ Category_Player Snake;
 6_ButtonOnOff_Infinite Powerups Time;
 19_ButtonOnOff_Always Active Powerups;
 20_ButtonOnOff_Always Active Boosters;
+
 Category_Enemy Snake;
 14_ButtonOnOff_Enemy God Mode;
 11_SeekBar_Enemy Speed_0_20;
@@ -24,7 +37,7 @@ Category_Enemy Snake;
 16_ButtonOnOff_Enemy Infinite Powerups;
 22_ButtonOnOff_Enemy Always Powerups;
 23_ButtonOnOff_Enemy Always Boosters;
-25_ButtonOnOff_Auto Accelerator [Drain]
+25_ButtonOnOff_Auto Accelerator [Drain];
 
 # ================= ADS =================
 ga_video_ready->_ZNK11cGenericAds12isVideoReadyEv
